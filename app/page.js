@@ -95,7 +95,9 @@ export default function Home() {
         {result && (
           <div className="mt-5 bg-[#111] border border-[#2e2e2e] rounded-xl p-4">
             <p className="text-xs text-[#ff6b35] font-medium mb-2">🔥 ROAST RESULT</p>
-            <p className="text-sm text-[#ccc] leading-relaxed whitespace-pre-wrap">{result}</p>
+            <div className="text-sm text-[#ccc] leading-relaxed prose prose-invert max-w-none">
+              <ReactMarkdown>{result}</ReactMarkdown>
+            </div>
           </div>
         )}
       </div>
