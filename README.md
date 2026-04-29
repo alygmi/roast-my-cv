@@ -95,7 +95,7 @@ curl -X POST http://localhost:3000/api/roast \
 
 | Main Interface | Roast Result |
 |----------------|--------------|
-| ![Upload Interface](docs/Capture.png) | ![Roast Result](docs/port.png) |
+| ![App Screenshot](docs/Capture.png) | ![App Screenshot](docs/port.png) |
 
 ---
 
