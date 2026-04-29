@@ -1,0 +1,33 @@
+export default function Logo({ size = 44 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 680 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="340" cy="260" r="200" fill="#1a1a1a"/>
+      <circle cx="340" cy="260" r="200" fill="none" stroke="#ff6b35" strokeWidth="2"/>
+      <path d="M340 90 C320 110 295 125 300 150 C285 138 278 120 278 120 C260 145 262 168 270 182 C258 175 252 162 252 162 C238 188 242 215 255 232 C248 226 246 212 248 205 C242 220 240 240 242 258 C238 250 236 238 237 228 C230 248 230 272 235 290 C240 310 252 328 268 340 C260 334 256 322 256 322 C260 345 272 362 290 372 C285 368 280 358 280 358 C288 378 306 392 326 396 C354 400 370 396 386 378 C386 378 382 388 376 390 C394 382 406 368 410 348 C410 348 406 360 402 364 C418 352 428 334 430 314 C432 296 430 276 424 260 C425 270 424 282 422 288 C426 270 426 248 420 230 C420 240 418 252 414 258 C418 242 416 220 406 202 C404 212 404 224 400 230 C402 214 396 195 384 182 C382 192 382 205 378 210 C378 192 368 172 356 158 C355 170 355 182 350 188 C352 168 348 140 340 90 Z" fill="#ff6b35"/>
+      <path d="M340 130 C328 148 318 162 322 178 C314 170 310 156 310 156 C300 172 302 190 308 202 C298 196 295 184 296 178 C286 196 288 218 296 232 C292 226 290 215 292 208 C284 224 284 244 290 260 C294 274 304 286 316 294 C308 288 306 278 306 278 C312 296 322 308 336 314 C352 318 364 314 374 302 C368 302 364 308 360 310 C372 300 380 286 382 270 C382 256 378 242 370 232 C371 240 370 250 366 254 C370 240 368 222 360 210 C358 218 358 228 354 232 C356 218 350 202 340 188 C339 198 338 210 334 214 C336 198 338 164 340 130 Z" fill="#ff8c42"/>
+      <path d="M340 175 C334 188 330 198 332 208 C328 202 326 194 326 194 C320 204 322 216 326 224 C322 220 320 212 320 212 C315 222 316 235 320 243 C318 238 317 231 318 227 C313 237 313 250 317 260 C319 268 325 274 332 278 C328 274 327 267 327 267 C330 276 336 282 343 283 C350 284 356 280 360 273 C357 274 355 278 352 279 C357 272 360 263 359 254 C359 246 356 238 350 232 C351 238 350 244 347 247 C349 238 347 226 340 218 C339 224 339 231 336 234 C337 224 338 198 340 175 Z" fill="#ffcc00"/>
+      <ellipse cx="316" cy="295" rx="18" ry="20" fill="#1a1a1a"/>
+      <ellipse cx="364" cy="295" rx="18" ry="20" fill="#1a1a1a"/>
+      <ellipse cx="316" cy="295" rx="10" ry="12" fill="#ff6b35"/>
+      <ellipse cx="364" cy="295" rx="10" ry="12" fill="#ff6b35"/>
+      <ellipse cx="313" cy="292" rx="4" ry="5" fill="#1a1a1a"/>
+      <ellipse cx="361" cy="292" rx="4" ry="5" fill="#1a1a1a"/>
+      <circle cx="312" cy="290" r="1.5" fill="white"/>
+      <circle cx="360" cy="290" r="1.5" fill="white"/>
+      <path d="M306 280 Q310 274 316 276" fill="none" stroke="#1a1a1a" strokeWidth="2.5" strokeLinecap="round"/>
+      <path d="M364 276 Q370 274 374 280" fill="none" stroke="#1a1a1a" strokeWidth="2.5" strokeLinecap="round"/>
+      <path d="M322 320 Q332 314 342 316 Q350 318 358 313" fill="none" stroke="#1a1a1a" strokeWidth="2.5" strokeLinecap="round"/>
+      <path d="M260 310 Q245 295 238 278 Q234 265 240 260 Q246 256 250 264 Q252 270 248 278" fill="none" stroke="#ff6b35" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M248 278 Q244 290 252 298 Q258 304 260 310" fill="none" stroke="#ff6b35" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <ellipse cx="237" cy="258" rx="8" ry="7" fill="#ff8c42"/>
+      <path d="M420 310 Q435 295 442 278 Q446 265 440 260 Q434 256 430 264 Q428 270 432 278" fill="none" stroke="#ff6b35" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M432 278 Q436 290 428 298 Q422 304 420 310" fill="none" stroke="#ff6b35" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <ellipse cx="443" cy="258" rx="8" ry="7" fill="#ff8c42"/>
+      <rect x="258" y="330" width="50" height="38" rx="5" fill="#f0f0f0"/>
+      <rect x="258" y="330" width="50" height="6" rx="3" fill="#ff6b35"/>
+      <line x1="264" y1="344" x2="302" y2="344" stroke="#ccc" strokeWidth="1.5"/>
+      <line x1="264" y1="350" x2="302" y2="350" stroke="#ccc" strokeWidth="1.5"/>
+      <line x1="264" y1="356" x2="290" y2="356" stroke="#ccc" strokeWidth="1.5"/>
+    </svg>
+  );
+}
